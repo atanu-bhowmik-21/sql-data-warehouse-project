@@ -10,10 +10,12 @@ The project follows the Medallion Architecture approach:
 **Bronze Layer (Raw Data):**  
   Ingested raw data from source systems
   Stored data in its original format for traceability
+
 **Silver Layer (Cleaned & Transformed Data):**  
   Performed data cleaning and preprocessing
   Handled missing values and inconsistencies
   Applied transformations and feature engineering
+  
 **Gold Layer (Business-Ready Data):**  
   Built fact and dimension tables
   Structured data for reporting and analytics
